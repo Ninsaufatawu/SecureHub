@@ -1,0 +1,91 @@
+.services--container{
+    background: var(--lightAsh);
+    height: 100vh;
+    margin-top: 200px;
+}
+.services--content{
+    margin-left: 90.333px;
+    margin-right: 100.333px;
+}
+.services--title--container{
+    display: flex;
+}
+.servicese--title{
+    align-items: center;
+    color: var(--darkBlue);
+    width: 700px;
+}
+.servicese--title h3{
+    font-size: 50px;
+}
+.services--title--description{
+    margin-top: 50px;
+    margin-left: 125px ;
+}
+.services--title--description p {
+    color: var(--lightBlue);
+}
+.services--title--description button{
+    border: none;
+    background: none;
+    font-size: 15px;
+}
+.services--info{
+    display: flex;
+    height: 65vh;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.services--info--content{
+    text-align: center;
+    font-size: 20px;
+    color: var(--lightBlue);
+    line-height: 35px;
+    height: 55vh;
+    cursor: pointer;
+    transition:  0.2s ; 
+   
+}
+.services--info--content:hover{
+    background: var(--lightBlue);
+    border-radius: 15%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    border: 8px solid rgba(255, 255, 255, 0.5);
+}
+.services--info--content:hover .services--info--icon,
+.services--info--content:hover .services--info--title,
+.services--info--content:hover .services--info--description,
+.services--info--content:hover .services--info--button--content {
+  color: var(--white);
+
+}
+
+.services--info--icon{
+    margin-top: 40px;
+    font-size:30px;
+}
+.services--info--title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.services--info--description{
+    margin-top: 40px;
+}
+.services--info--button{
+    background-color: var(--lightBlue);
+    color: white;
+    width: 120px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 33%;
+    font-size: 17px;
+}
+.services--info--content:hover .services--info--button--content {
+    background: var(--darkBlue);
+    border-radius: 4px;
+}
+

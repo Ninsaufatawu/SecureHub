@@ -1,0 +1,91 @@
+{
+    "Users": [
+        {
+            "id": "1",
+            "title": "12",
+            "description": "Experience"
+        },
+        {
+            "id": "2",
+            "title": "25",
+            "description": "Product"
+
+        },
+        {
+            "id": "3",
+            "title": "100+",
+            "description": "Project Done"
+        }
+
+    ],
+    "ProductRatings": [
+        {
+            "id": "1",
+            "icon": "VscLightbulbSparkle",
+            "title": "  Innovation",
+            "description": "Leading-edge technologies."
+        },
+        {
+            "id": "2",
+            "icon": "FaAward",
+            "title": "High Quality",
+            "description": "Award-winning standards in production."
+        },
+        {
+            "id": "3",
+            "icon": "SiTicktick",
+            "title": "Best Product",
+            "description": "Always on time without compromises."
+        },
+        {
+            "id": "4",
+            "icon": "GrServices",
+            "title": "Top Service",
+            "description": "Reliable and customer-focused services."
+        }
+    ],
+    "Choice": [
+        {
+            "id": "1",
+            "icon":"FaThumbsUp",
+            "title": "23 Years Experience",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. "
+        },
+        {
+            "id": "2",
+            "icon":"RiCustomerService2Fill",
+            "title": "24/7 Support",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+        },
+        {
+            "id": "3",
+            "icon":"PiCertificateFill",
+            "title": "Industry Certified",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+        }
+    ],
+    "Services": [
+        {
+            "id": "1",
+            "icon":"FaCameraRetro",
+            "title": "Security Camera",
+            "link": "Learn more",
+            "description": "We bring tht right people together to challenge the established thinking and drive transform in 2024. "
+        },
+        {
+            "id": "2",
+            "icon":"FaRegBell",
+            "title": "Fire Detection",
+            "link": "Learn more",
+            "description": "We bring tht right people together to challenge the established thinking and drive transform in 2024."
+        },
+        {
+            "id": "3",
+            "icon":"SiThunderstore",
+            "title": "Smart Home",
+            "link": "Learn more",
+            "description": "We bring tht right people together to challenge the established thinking and drive transform in 2024."
+        }
+    ]
+    
+}

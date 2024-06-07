@@ -1,0 +1,137 @@
+.about--container{
+    
+    margin-top: 600px;
+    margin-left: 90.333px;
+    margin-right: 100.333px;
+}
+
+
+.about--content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Equal width columns */
+    gap: 20px;
+    
+}
+
+.about--image,
+.about--text--description,
+.about--choice {
+    border-radius: 20px;
+}
+
+.about--image {
+    
+    z-index: 1;
+    transform: translateX(10%);
+    width: 400px;
+    object-fit: cover;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+    overflow: hidden;
+    height: 550px;
+    padding: 20px;
+}
+.about--image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60%; /* Cover half the height */
+    background-color: rgba(44, 67, 75, 0.8); /* Semi-transparent overlay color */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+ img{
+    z-index: -1;
+    width: 500px;
+    height: 600px;
+    
+}
+
+.about--text--description {
+   
+    z-index: 2; 
+    width: 400px;
+    height: 115%;
+    background: var(--lightBlue);
+    transform: translateY(-11%) translateX(-7%);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--white);
+    padding: 20px;
+}
+
+.about--choice {
+    
+    z-index: 1;
+    transform: translateX(-15%); 
+    width: 500px;
+    height: 550px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3); 
+    padding: 20px;
+}
+.about--choice--container{
+    padding: 60px;
+}
+
+/* Optional: Adjust the button style */
+
+
+.secure--btn button:hover {
+    background-color: #0056b3;
+}
+.about--title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--white);
+    position: relative;
+    bottom: 30px;
+}
+.choice--title{
+    color: var(--darkBlue);
+    font-size: 2rem;
+    font-weight: 600;
+}
+.item--title{
+    color: var(--darkBlue);
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+.choice--icon{
+    width: 40px;
+    height: 35px;
+    background: var(--darkBlue);
+    color: var(--white);
+    font-size: 25px;
+    position: relative;
+    border-radius: 2px;
+    display: block;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+.coice--inline--items{
+    display: flex;
+    gap: 25px;
+}
+.choice--items{
+    padding: 15px 0px ;
+}
+.choice--description{
+    color: var(--lightBlue);
+    padding: 0px 65px;
+}
+.choice--title--description{
+    color: var(--lightBlue);
+}
+
+.about--partners--container{
+    background: green;
+    top: 100px;
+    position: relative;
+    height: 25vh;
+    
+}
+
